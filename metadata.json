@@ -1,0 +1,6 @@
+{
+  "name": "TruthLens - Fake News Detector",
+  "description": "Production-ready real-time news verification and credibility analysis with forensic analytics, verification history, animated neural scanning, and PDF forensic report exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

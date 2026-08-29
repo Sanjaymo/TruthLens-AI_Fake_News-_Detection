@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "veritas-nlp-agent",
+  "main": "server.ts",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "traces": {
+      "enabled": true
+    }
+  },
+  "vars": {
+    "ENVIRONMENT": "production",
+    "AGENT_NAME": "VeritasNLP-Verification-Agent"
+  }
+}
